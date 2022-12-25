@@ -1,0 +1,44 @@
+body {
+    display: block;
+    margin: 8px;
+    background-color: rgb(255, 255, 255);
+}
+
+form {
+    display: block;
+    margin-block-end: 1em;
+    margin-top: 0em;
+    font-size: large;
+}
+
+.center {
+    display: block;
+    text-align: -webkit-center;
+    font-size: large;
+}
+
+table {
+    border-collapse: separate;
+    text-indent: inital;
+    font-style: normal;
+    font-weight: normal;
+    font-size: normal;
+    text-align: start;
+    border-color: grey;
+    font-variant: normal;
+    border-spacing: 2px;
+    color: -internal-quirk-inherit;
+    line-height: normal;
+    white-space: normal;
+}
+
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    font-size: large;
+}
+
+input:not([type="image" i]) {
+    box-sizing: border-box;
+    font-size: large;
+}
